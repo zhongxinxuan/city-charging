@@ -1,4 +1,4 @@
-import { http } from './http'
+import { loadDataset } from '../data/dataset'
 
 export interface Operator {
   operator_id: number
@@ -8,7 +8,7 @@ export interface Operator {
   headquarters: string | null
 }
 
-export async function getOperators() {
-  const response = await http.get<{ data: Operator[] }>('/api/operators')
-  return response.data.data
+export async function getOperators(): Promise<Operator[]> {
+  const ds = await loadDataset()
+  return ds.operators
 }

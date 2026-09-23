@@ -1,4 +1,4 @@
-import { http } from './http'
+import { loadDataset } from '../data/dataset'
 
 export interface ChargerSpec {
   spec_id: number
@@ -11,7 +11,7 @@ export interface ChargerSpec {
   cost_per_kwh: number | null
 }
 
-export async function getChargerSpecs() {
-  const response = await http.get<{ data: ChargerSpec[] }>('/api/charger-specs')
-  return response.data.data
+export async function getChargerSpecs(): Promise<ChargerSpec[]> {
+  const ds = await loadDataset()
+  return ds.specs
 }

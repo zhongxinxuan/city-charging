@@ -1,4 +1,4 @@
-import { http } from './http'
+import { loadDataset } from '../data/dataset'
 
 export interface City {
   city_id: number
@@ -10,7 +10,7 @@ export interface City {
   gdp_billion: number | null
 }
 
-export async function getCities() {
-  const response = await http.get<{ data: City[] }>('/api/cities')
-  return response.data.data
+export async function getCities(): Promise<City[]> {
+  const ds = await loadDataset()
+  return ds.cities
 }
