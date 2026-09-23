@@ -1,0 +1,52 @@
+[
+  {
+    "spec_id": "1",
+    "type_name": "超级快充桩",
+    "power_kw": "480",
+    "voltage_v": "1000",
+    "current_a": "480",
+    "connector_type": "国标2015",
+    "charge_time_min": "15",
+    "cost_per_kwh": "2.5"
+  },
+  {
+    "spec_id": "2",
+    "type_name": "超级快充桩",
+    "power_kw": "360",
+    "voltage_v": "750",
+    "current_a": "480",
+    "connector_type": "国标2015",
+    "charge_time_min": "20",
+    "cost_per_kwh": "2.3"
+  },
+  {
+    "spec_id": "3",
+    "type_name": "直流快充桩",
+    "power_kw": "120",
+    "voltage_v": "500",
+    "current_a": "240",
+    "connector_type": "国标2015",
+    "charge_time_min": "40",
+    "cost_per_kwh": "1.8"
+  },
+  {
+    "spec_id": "4",
+    "type_name": "直流快充桩",
+    "power_kw": "60",
+    "voltage_v": "500",
+    "current_a": "120",
+    "connector_type": "国标2015",
+    "charge_time_min": "60",
+    "cost_per_kwh": "1.6"
+  },
+  {
+    "spec_id": "5",
+    "type_name": "交流慢充桩",
+    "power_kw": "7",
+    "voltage_v": "220",
+    "current_a": "32",
+    "connector_type": "国标2011",
+    "charge_time_min": "360",
+    "cost_per_kwh": "1.2"
+  }
+]

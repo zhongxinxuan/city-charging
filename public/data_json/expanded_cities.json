@@ -1,0 +1,74 @@
+[
+  {
+    "city_id": "1",
+    "city_name": "定南县",
+    "longitude": "114.96",
+    "latitude": "24.68",
+    "area_code": "0797-4291000",
+    "population": "380000",
+    "gdp_billion": "45.2"
+  },
+  {
+    "city_id": "2",
+    "city_name": "宁都县",
+    "longitude": "116.02",
+    "latitude": "26.47",
+    "area_code": "0797-6832000",
+    "population": "830000",
+    "gdp_billion": "89.5"
+  },
+  {
+    "city_id": "3",
+    "city_name": "章贡区",
+    "longitude": "114.94",
+    "latitude": "25.85",
+    "area_code": "0797-8309000",
+    "population": "980000",
+    "gdp_billion": "125.3"
+  },
+  {
+    "city_id": "4",
+    "city_name": "南康区",
+    "longitude": "114.77",
+    "latitude": "25.66",
+    "area_code": "0797-6612000",
+    "population": "850000",
+    "gdp_billion": "110.7"
+  },
+  {
+    "city_id": "5",
+    "city_name": "于都县",
+    "longitude": "115.42",
+    "latitude": "25.96",
+    "area_code": "0797-6233000",
+    "population": "920000",
+    "gdp_billion": "98.4"
+  },
+  {
+    "city_id": "6",
+    "city_name": "兴国县",
+    "longitude": "115.36",
+    "latitude": "26.34",
+    "area_code": "0797-5322000",
+    "population": "780000",
+    "gdp_billion": "82.1"
+  },
+  {
+    "city_id": "7",
+    "city_name": "赣县区",
+    "longitude": "115",
+    "latitude": "25.86",
+    "area_code": "0797-4430000",
+    "population": "650000",
+    "gdp_billion": "75.8"
+  },
+  {
+    "city_id": "8",
+    "city_name": "信丰县",
+    "longitude": "114.94",
+    "latitude": "25.39",
+    "area_code": "0797-3311000",
+    "population": "720000",
+    "gdp_billion": "88.9"
+  }
+]

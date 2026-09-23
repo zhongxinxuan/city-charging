@@ -1,0 +1,42 @@
+:root {
+  --primary: #10b981;
+  --primary-dark: #059669;
+  --primary-light: #d1fae5;
+  --primary-bg: rgba(16, 185, 129, 0.08);
+  --secondary: #3b82f6;
+  --secondary-dark: #2563eb;
+  --secondary-light: #dbeafe;
+  --accent: #f59e0b;
+  --accent-light: #fef3c7;
+  --danger: #ef4444;
+  --danger-light: #fee2e2;
+
+  --sidebar-bg: #0f172a;
+  --sidebar-hover: rgba(16, 185, 129, 0.12);
+  --sidebar-active: rgba(16, 185, 129, 0.18);
+  --sidebar-text: #94a3b8;
+  --sidebar-text-active: #10b981;
+  --sidebar-border: rgba(255, 255, 255, 0.06);
+  --sidebar-width: 260px;
+
+  --bg-page: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-section: #f8fafc;
+  --border-color: #e2e8f0;
+  --border-light: #f1f5f9;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-tertiary: #94a3b8;
+  --text-inverse: #ffffff;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --font-sans: 'Inter', 'Microsoft YaHei', 'PingFang SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}

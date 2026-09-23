@@ -1,0 +1,37 @@
+[
+  {
+    "operator_id": "1",
+    "operator_name": "理想汽车",
+    "company_type": "车企自营",
+    "founded_year": "2015",
+    "headquarters": "北京"
+  },
+  {
+    "operator_id": "2",
+    "operator_name": "特来电",
+    "company_type": "专业运营商",
+    "founded_year": "2014",
+    "headquarters": "青岛"
+  },
+  {
+    "operator_id": "3",
+    "operator_name": "驴充充",
+    "company_type": "地方运营商",
+    "founded_year": "2018",
+    "headquarters": "南昌"
+  },
+  {
+    "operator_id": "4",
+    "operator_name": "国家电网",
+    "company_type": "国企",
+    "founded_year": "2002",
+    "headquarters": "北京"
+  },
+  {
+    "operator_id": "5",
+    "operator_name": "星星充电",
+    "company_type": "专业运营商",
+    "founded_year": "2016",
+    "headquarters": "常州"
+  }
+]
