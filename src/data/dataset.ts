@@ -104,14 +104,15 @@ let cache: Promise<Dataset> | null = null
 export function loadDataset(): Promise<Dataset> {
   if (cache) return cache
   cache = (async () => {
+    const base = import.meta.env.BASE_URL
     const [citiesRaw, operatorsRaw, specsRaw, stationsRaw, usersRaw, recordsRaw] =
       await Promise.all([
-        fetch('/data_json/expanded_cities.json').then((r) => r.json()),
-        fetch('/data_json/operators_info.json').then((r) => r.json()),
-        fetch('/data_json/charger_specifications.json').then((r) => r.json()),
-        fetch('/data_json/expanded_stations.json').then((r) => r.json()),
-        fetch('/data_json/users.json').then((r) => r.json()),
-        fetch('/data_json/charging_records.json').then((r) => r.json()),
+        fetch(`${base}data_json/expanded_cities.json`).then((r) => r.json()),
+        fetch(`${base}data_json/operators_info.json`).then((r) => r.json()),
+        fetch(`${base}data_json/charger_specifications.json`).then((r) => r.json()),
+        fetch(`${base}data_json/expanded_stations.json`).then((r) => r.json()),
+        fetch(`${base}data_json/users.json`).then((r) => r.json()),
+        fetch(`${base}data_json/charging_records.json`).then((r) => r.json()),
       ])
 
     const cities: CityRow[] = citiesRaw.map((r: any) => ({
