@@ -6,6 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages 部署在 /<仓库名>/ 子路径下，必须设置 base
+  base: '/city-charging/',
   plugins: [
     vue(),
     vueDevTools(),
@@ -13,15 +15,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
-    },
-  },
-  server: {
-    proxy: {
-      // 本地开发时把 /api 转发到 FastAPI；线上部署由 FastAPI 直接托管，无需此代理
-      '/api': {
-        target: 'http://127.0.0.1:8000',
-        changeOrigin: true,
-      },
     },
   },
 })
